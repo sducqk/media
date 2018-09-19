@@ -1,6 +1,6 @@
 import os
 import io
-title=''
+title='media'
 def make(s):
     d=os.listdir('.')
     with open('index.html','w') as f:
@@ -17,5 +17,5 @@ def make(s):
                 else:
                     f.write('<li><a href="{0}">{0}</a></li>\n'.format(i))
 
-make('https://img.75kg.top/')
+make('https://75kg.top/media')
 print('DONE')
